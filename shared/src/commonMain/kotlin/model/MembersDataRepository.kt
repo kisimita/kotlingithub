@@ -5,7 +5,7 @@ import com.bosch.api.UpdateProblems
 import com.bosch.presentation.DataRepository
 
 class MembersDataRepository(private val api: GithubAPI): DataRepository {
-    override var members: String? = null
+    override var members: List<Member>? = null
     override var onRefreshListeners: List<() -> Unit> = emptyList()
 
     override suspend fun update() {
