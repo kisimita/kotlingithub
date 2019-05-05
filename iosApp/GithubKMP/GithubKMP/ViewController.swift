@@ -11,6 +11,7 @@ import shared
 
 class ViewController: UIViewController, MemberView {
     
+    let memberList = MemberList()
     var isUpdating: Bool = false
     
     lazy var presenter: MembersPresenter = {
@@ -31,8 +32,9 @@ class ViewController: UIViewController, MemberView {
         presenter.onDestroy()
     }
     
-    func onUpdate(members: String) {
-        print(members)
+    func onUpdate(members: [Member]) {
+        self.memberList.updateMembers(members)
+        print("Member count:\(self.memberList.members.count)")
     }
 
 }

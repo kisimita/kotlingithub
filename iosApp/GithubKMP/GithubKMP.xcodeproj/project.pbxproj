@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC10C033227EDDA1005BB363 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10C032227EDDA1005BB363 /* BaseView.swift */; };
+		AC10C035227F0C2C005BB363 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10C034227F0C2C005BB363 /* MemberList.swift */; };
 		AC14D294227E6F3900FF6993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14D293227E6F3900FF6993 /* AppDelegate.swift */; };
 		AC14D296227E6F3900FF6993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14D295227E6F3900FF6993 /* ViewController.swift */; };
 		AC14D299227E6F3900FF6993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC14D297227E6F3900FF6993 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		AC10C032227EDDA1005BB363 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AC10C034227F0C2C005BB363 /* MemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberList.swift; sourceTree = "<group>"; };
 		AC14D290227E6F3900FF6993 /* GithubKMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubKMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC14D293227E6F3900FF6993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC14D295227E6F3900FF6993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				AC14D2A2227E6F3B00FF6993 /* Info.plist */,
 				AC14D29A227E6F3900FF6993 /* GithubKMP.xcdatamodeld */,
 				AC10C032227EDDA1005BB363 /* BaseView.swift */,
+				AC10C034227F0C2C005BB363 /* MemberList.swift */,
 			);
 			path = GithubKMP;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC14D296227E6F3900FF6993 /* ViewController.swift in Sources */,
+				AC10C035227F0C2C005BB363 /* MemberList.swift in Sources */,
 				AC14D29C227E6F3900FF6993 /* GithubKMP.xcdatamodeld in Sources */,
 				AC14D294227E6F3900FF6993 /* AppDelegate.swift in Sources */,
 				AC10C033227EDDA1005BB363 /* BaseView.swift in Sources */,

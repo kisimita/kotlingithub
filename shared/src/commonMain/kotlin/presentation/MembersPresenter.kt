@@ -22,7 +22,7 @@ class MembersPresenter(private val view: MemberView,
     }
 
     private fun showData() {
-        view.onUpdate(repository.members ?: "No members")
+        view.onUpdate(repository.members.orEmpty())
     }
 
     private fun updateData() {

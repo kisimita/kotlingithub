@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.bosch.api.UpdateProblems
+import com.bosch.model.Member
 import com.bosch.platformName
 import com.bosch.presentation.MemberView
 import com.bosch.presentation.MembersPresenter
@@ -12,9 +13,9 @@ import com.bosch.presentation.MembersPresenter
 class MainActivity : AppCompatActivity(), MemberView {
     override var isUpdating = false
 
-    override fun onUpdate(members: String) {
+    override fun onUpdate(members: List<Member>) {
         runOnUiThread {
-            Toast.makeText(this, members, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Size:" + members.size, Toast.LENGTH_SHORT).show()
         }
     }
 
